@@ -1,0 +1,106 @@
+		main {
+			max-width: 100%;
+		}
+
+
+		header {
+			width: 1060px;
+			min-height: 150px;
+			margin: 0 auto;
+			background-color: red;
+			border-style: solid;
+		}
+
+		.navigation {
+			width: 1060px;
+			margin: 0 auto;
+			padding: 3px;
+			background-color: black;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		ul li {
+			display: inline;
+			margin-right: 30px;
+			padding: 6px;
+		}
+
+		ul li a {
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: red;
+		}
+
+		#slide {
+			width: 1060px;
+			min-height: 500px;
+			margin: 0 auto;
+			margin-bottom: 15px;
+			background-color: lightgrey;
+			border-style: solid;
+		}
+
+		#weather {
+			width: 1060px;
+			min-height: 100px;
+			margin: 0 auto;
+			background-color: lightgrey;
+			border-style: solid;
+		}
+
+		h1 {
+			font-size: 3em;
+			
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 2em;
+		}
+
+		p {		
+			font-family: 15px Helvetica, Arial, Sans-serif;
+		}
+
+		#content {
+			width: 1060px;
+			margin: 0 auto;
+			margin-bottom: 15px;
+			text-align: center;
+
+		}
+
+		footer {
+			width: 1060px;
+			min-height: 100px;
+			margin: 0 auto;
+			font-size: 20px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			border-style: solid;
+		}
+
+		@media only screen and (max-width: 480px) {
+			
+
+}
+
+
+
+		@media only screen and (min-width: 481px) {
+
+}
+
+
+		@media only screen and (min-width: 1025px) {
+
+
+}
