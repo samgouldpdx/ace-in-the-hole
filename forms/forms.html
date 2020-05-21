@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0, user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ace in the Hole Multisport Events</title>
+	<link rel="stylesheet" href="template.css">
+	<script type="text/javascript"></script>
+</head>
+<header><h1>Heading 1</h1></header>
+  <body>
+  	<nav>
+		<ul class="navigation">
+			<li><a href="#about">About</a></li>
+			<li><a href="#times">Times</a></li>
+			<li><a href="#details">Details</a></li>
+			<li><a href="#bring">Bring</a></li>
+			<li><a href="#packet">Packet</a></li>
+			<li><a href="#faqs">FAQs</a></li>
+			<li><a href="forms.html">Forms</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Registration Form</h2>
+		<form method="post" id="registration-form" name="registration" action="forms.php">
+			<p>Please fill in the information below:</p>
+			<label for="name">Full Name:</label>
+			<input type="text" name="name" id="name" required="">
+			<label for="age">Age:</label>
+			<input type="number" name="age" id="age" required="">
+
+				<p>Click one to register:</p>
+				<input type="radio" name="role" id="role-pick" value="role-pick" checked="checked">
+				<label class="active" for="role-pick">Athlete</label>
+				<input type="radio" name="role" id="role-pick-2" value="role-pick-2">
+				<label for="role-pick-2">Volunteer</label>
+			<br>	
+			<br>
+			<label for="email">Your Email:</label>
+			<input type="text" name="email" id="email" required="">
+			<br>
+
+			<label for="emergency-name">Emergency Contact Name:</label>
+			<input type="text" name="emergency-contact" required="">
+			<br>
+			<label for="emergency-number">Emergency Contact Number:</label>
+			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]-[0-9]{4}" required="">
+			<br>
+			<label for="gender">Gender Identification (Female, Male, or Non-binary):</label>
+			<input type="text" name="gender" required="">
+			<br>
+			<label for="sat-events">Saturday Events Registering for:</label>
+			<input type="text" name="sat-events" required="">
+			<br>
+			<label for="sun-events">Sunday Events Registering for:</label>
+			<input type="text" name="sun-events" required="">
+			<br>
+			<label for="accommodations">Any Special Accomodations needed?</label>
+			<br>
+			<textarea id="accommodations" name="message" rows="10"></textarea>
+        <section>
+          <p id="register-errors"></p>
+        </section>
+        <button id="contactform-submit" type="submit">Send</button>
+		</form>
+	</main>
+    <footer>Copyright &copy; 2020 Ace in the Hole Multisport Events</footer>
+  </body>
+</html>

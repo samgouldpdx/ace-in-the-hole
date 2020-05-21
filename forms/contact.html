@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0, user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ace in the Hole Multisport Events</title>
+	<link rel="stylesheet" href="template.css">
+	<script type="text/javascript"></script>
+</head>
+<body>	
+<header><h1>Heading 1</h1></header>
+<nav>
+		<ul class="navigation">
+			<li><a href="#about">About</a></li>
+			<li><a href="#times">Times</a></li>
+			<li><a href="#details">Details</a></li>
+			<li><a href="#bring">Bring</a></li>
+			<li><a href="#packet">Packet</a></li>
+			<li><a href="#faqs">FAQs</a></li>
+			<li><a href="forms.html">Forms</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Contact us!</h2>
+
+
+		<form method="post" name="contactform" action="submitcontact.php">
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required="">
+			<label for="email">Email:</label>
+			<input type="text" name="email" id="email" required="">
+			<p>Question or Comment:</p>
+			<textarea id="message" name="message" rows="10" required=""></textarea>
+			<div id="role">
+			<p>Please choose one:</p>
+			
+				<input type="radio" name="role" id="role-pick" value="role-pick" checked="checked">
+				<label class="active" for="role-pick">Athlete</label>
+				<input type="radio" name="role" id="role-pick-2" value="role-pick-2">
+				<label for="role-pick-2">Volunteer</label>
+				<br>
+				<input type="radio" name="role" id="role-pick" value="role-pick" checked="checked">
+				<label for="role-pick-3">Interested Party</label>
+			</div>
+			<section>
+				<p id="register-error"></p>
+			</section>
+			<button id="contactform-submit" name="go" type="submit">Send</button>
+		</form>
+		
+	</main>
+	<footer>Copyright &copy; 2020 Ace in the Hole Multisport Events</footer>
+</body>
+</html>
